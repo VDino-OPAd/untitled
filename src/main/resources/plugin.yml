@@ -1,0 +1,11 @@
+name: UPGRADEAE
+version: '${project.version}'
+main: me.viezl.plugins.UPGRADEAE
+api-version: 1.16
+author: ViezL
+depend: [AdvancedEnchantments]
+loadbefore: [AdvancedEnchantments]
+commands:
+  aeupgrade:
+    description: "Nâng cấp enchants đê bạn tôi ơi"
+    usage: "/aeupgrade"
